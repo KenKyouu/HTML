@@ -1,0 +1,901 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.wrap {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.wrap section.first {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+
+.wrap section.first header {
+  background-color: #3b3b3b;
+  margin: auto;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap section.first header .logo {
+  margin-left: 5%;
+}
+
+.wrap section.first header .logo img {
+  width: 300px;
+}
+
+.wrap section.first header .nb {
+  margin-right: 5%;
+}
+
+.wrap section.first header .nb ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap section.first header .nb ul li {
+  display: inline-block;
+  margin: 8px;
+  font-weight: 700;
+}
+
+.wrap section.first header .nb ul li a {
+  font-size: 1.1rem;
+  color: #e2e2e2;
+}
+
+.wrap section.first header .nb ul li a:hover {
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.wrap section.first header .nb ul li a.navbtn {
+  padding: 10px 20px;
+  background-color: #327dab;
+  border-radius: 20px;
+  color: white;
+}
+
+.wrap section.first header .nb ul li a.navbtn:hover {
+  background-color: #292929;
+}
+
+.wrap section.first header .nb ul li a.facebook i {
+  font-size: 2.4rem;
+  color: white;
+}
+
+.wrap section.first header .nb ul li a.facebook i:hover {
+  color: #e2e2e2;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.wrap section.second {
+  width: 100vw;
+  background-color: #fafafa;
+}
+
+.wrap section.second .lulogo {
+  background: url(../images/bg-1.svg) no-repeat center/110%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.wrap section.second .lulogo img.maintopic {
+  width: 23%;
+  position: absolute;
+  top: 70px;
+  left: 160px;
+}
+
+.wrap section.second .lulogo img.maintopic2 {
+  width: 65%;
+  padding-top: 190px;
+}
+
+.wrap section.second .lulogo p.firstP {
+  font-size: 1.5rem;
+  line-height: 1.6em;
+}
+
+.wrap section.second .lulogo p.secondP {
+  font-size: 1.5rem;
+  line-height: 1.6em;
+  color: #458ea8;
+}
+
+.wrap section.second .lulogo ul.point {
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap section.second .lulogo ul.point img.pointIcon {
+  width: 2%;
+}
+
+.wrap section.second .lulogo ul.point li {
+  margin-right: 45px;
+}
+
+.wrap section.third {
+  background-color: #b2d2dd;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.wrap section.third h2 {
+  margin: 30px 0;
+  font-size: 1.6rem;
+  color: white;
+  padding: 15px 20px;
+  background-color: #458ea8;
+  display: inline-block;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.wrap section.third p {
+  font-size: 1.3rem;
+  line-height: 1.6em;
+  font-weight: 500;
+}
+
+.wrap section.third ul {
+  width: 50%;
+  margin: auto;
+}
+
+.wrap section.third ul li {
+  margin-left: 90px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  list-style-type: disc;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.wrap section.third .learn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap section.third .learn .thirdIT {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+.wrap section.third .learn .thirdIcon {
+  width: 45%;
+}
+
+.wrap section.third .learn .thirdText {
+  width: 55%;
+  text-align: left;
+  padding-left: 3px;
+}
+
+.wrap section.third .learn .thirdText h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.wrap section.third .learn .thirdText p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.wrap section.fourth {
+  background-color: #e2ae46;
+  padding-bottom: 50px;
+}
+
+.wrap section.fourth h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 70px 0;
+  font-weight: 500;
+}
+
+.wrap section.fourth .roundown {
+  text-align: center;
+  margin: 0 200px;
+}
+
+.wrap section.fourth .roundown .oneBlack {
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.wrap section.fourth .roundown .oneBlack p {
+  line-height: 1.5em;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.wrap section.fourth .roundown .oneOrange {
+  background-color: #d98339;
+  padding: 20px 0;
+}
+
+.wrap section.fourth .roundown .oneOrange h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.wrap section.fourth .roundown .twoWhite {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+}
+
+.wrap section.fourth .roundown .twoWhite .TWL {
+  width: 30%;
+  text-align: right;
+}
+
+.wrap section.fourth .roundown .twoWhite .TWL p.time {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.wrap section.fourth .roundown .twoWhite .TWL p.classTitle {
+  font-size: 1.4rem;
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.wrap section.fourth .roundown .twoWhite .TWR {
+  width: 70%;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.wrap section.fourth .roundown .twoWhite .TWR ul {
+  list-style-type: disc;
+  font-size: 1.4rem;
+  line-height: 1.2em;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.wrap section.fourth .roundown .twoWhite .TWR ul li {
+  padding-top: 5px;
+}
+
+.wrap section.fourth .roundown .twoWhite .TWR p {
+  padding-top: 5px;
+}
+
+.wrap section.fourth .roundown .twoBlue {
+  background-color: #458ea8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+  color: white;
+}
+
+.wrap section.fourth .roundown .twoBlue .TBL {
+  width: 30%;
+  text-align: right;
+}
+
+.wrap section.fourth .roundown .twoBlue .TBL p.time {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.wrap section.fourth .roundown .twoBlue .TBL p.classTitle {
+  font-size: 1.4rem;
+  padding-top: 20px;
+}
+
+.wrap section.fourth .roundown .twoBlue .TBR {
+  width: 70%;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.wrap section.fourth .roundown .twoBlue .TBR p {
+  font-size: 1.4rem;
+}
+
+.wrap section.fourth .roundown .oneBlue {
+  background-color: #458ea8;
+  padding: 20px 0;
+}
+
+.wrap section.fourth .roundown .oneBlue h3 {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 500;
+}
+
+.wrap section.fourth .roundown .horizon {
+  height: 1px;
+  background-color: #333;
+}
+
+.wrap section.fifth {
+  text-align: center;
+  background-color: #eeefef;
+}
+
+.wrap section.fifth .cardBox {
+  width: 55%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.wrap section.fifth .cardBox .card {
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap section.fifth .cardBox .card .pPhoto img {
+  width: 150px;
+  height: 150px;
+}
+
+.wrap section.fifth .cardBox .card .pContent {
+  margin-left: 40px;
+  text-align: left;
+}
+
+.wrap section.fifth .cardBox .card .pContent h3 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  color: #458ea8;
+  font-weight: 500;
+}
+
+.wrap section.fifth .cardBox .card .pContent h4 {
+  font-size: 1.3rem;
+  margin: 15px 0;
+}
+
+.wrap section.fifth .cardBox .card .pContent p {
+  line-height: 1.5em;
+  font-size: 1.1rem;
+}
+
+.wrap section.sixth {
+  background-color: #f5f1df;
+  color: #d98339;
+  text-align: center;
+}
+
+.wrap section.sixth h2 {
+  font-size: 2rem;
+  padding: 70px 0;
+  font-weight: 500;
+}
+
+.wrap section.sixth .cardBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrap section.sixth .cardBox .card {
+  margin: 0 20px;
+}
+
+.wrap section.sixth .cardBox .card img.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.wrap section.sixth .cardBox .card h3 {
+  font-size: 1.4rem;
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.wrap section.sixth .cardBox .card img.content {
+  margin-top: -75px;
+  width: 250px;
+  height: 250px;
+}
+
+.wrap section.seventh {
+  background-color: #b2d2dd;
+  text-align: center;
+}
+
+.wrap section.seventh h2 {
+  font-size: 2rem;
+  padding: 70px 0;
+  font-weight: 500;
+}
+
+.wrap section.seventh .cardBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.wrap section.seventh .cardBox .card {
+  margin: 0 20px;
+}
+
+.wrap section.seventh .cardBox .card img {
+  width: 125px;
+  height: 125px;
+}
+
+.wrap section.seventh .cardBox .card p.blueP {
+  background-color: #458ea8;
+  width: 250px;
+  height: 40px;
+  color: white;
+  border-radius: 15px 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500;
+}
+
+.wrap section.seventh .cardBox .card p.whiteP {
+  background-color: white;
+  width: 250px;
+  height: 80px;
+  border-radius: 0 0 15px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500;
+}
+
+.wrap section.eighth {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.wrap section.eighth h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.wrap section.ninth {
+  background-color: #e2ae46;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.wrap section.ninth h2 {
+  font-size: 2rem;
+  padding: 70px 0;
+  font-weight: 500;
+}
+
+.wrap section.ninth .price {
+  width: 80%;
+  margin: auto;
+}
+
+.wrap section.ninth .price .detail h3 {
+  text-align: left;
+  font-size: 1.8rem;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.wrap section.ninth .price .detail h3 span {
+  font-size: 1.4rem;
+}
+
+.wrap section.ninth .price .priceTagBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange p.eleven {
+  color: #f5f1df;
+  padding-top: 5px;
+  font-size: 0.8rem;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange p.eleven:hover {
+  cursor: pointer;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange p.eleven:hover .priceTagB {
+  background-color: #000;
+  color: #f5f1df;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagW,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagR,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagB {
+  margin-top: 20px;
+  width: 250px;
+  height: 115px;
+  padding: 20px 0;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagW a:hover,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagR a:hover,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagB a:hover {
+  color: #f5f1df;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagW:hover,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagR:hover,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagB:hover {
+  background-color: #000;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagW p,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagR p,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagB p {
+  font-size: 1.1rem;
+  line-height: 1.7em;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagW p:hover,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagR p:hover,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagB p:hover {
+  cursor: pointer;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagW p span,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagR p span,
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagB p span {
+  font-size: 2.4rem;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagW {
+  background-color: #f5f1df;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagW a {
+  color: #000;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagR {
+  background-color: #c34e40;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagR a {
+  color: #f5f1df;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagB {
+  background-color: #458ea8;
+}
+
+.wrap section.ninth .price .priceTagBox .priceHoverRange .priceTagB a {
+  color: #f5f1df;
+}
+
+.wrap section.ninth .price p.notice {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 2.2em;
+}
+
+.wrap section.ninth .price p.notice span {
+  color: #007bff;
+}
+
+.wrap section.ninth .price p.notice span:hover {
+  color: #0056b3;
+  cursor: pointer;
+}
+
+.wrap section.tenth {
+  background-color: #eb9d5f;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.wrap section.tenth p.content {
+  font-size: 1.3rem;
+  line-height: 1.5em;
+  color: white;
+  font-weight: 500;
+}
+
+.wrap section.tenth p.content span {
+  font-size: 1.8rem;
+}
+
+.wrap section.tenth .season {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%;
+  margin: 20px auto;
+  font-weight: 500;
+}
+
+.wrap section.tenth .season .grayBack,
+.wrap section.tenth .season .orangeBack {
+  width: 240px;
+  height: 170px;
+  border-radius: 10px;
+}
+
+.wrap section.tenth .season .grayBack p,
+.wrap section.tenth .season .orangeBack p {
+  font-size: 1.3rem;
+  line-height: 2em;
+  margin-top: 10px;
+}
+
+.wrap section.tenth .season .grayBack p span,
+.wrap section.tenth .season .orangeBack p span {
+  font-size: 2rem;
+}
+
+.wrap section.tenth .season .grayBack p.close,
+.wrap section.tenth .season .grayBack p.open,
+.wrap section.tenth .season .orangeBack p.close,
+.wrap section.tenth .season .orangeBack p.open {
+  margin: 10px auto;
+  width: 120px;
+  border-radius: 20px;
+}
+
+.wrap section.tenth .season .grayBack p.close,
+.wrap section.tenth .season .orangeBack p.close {
+  background-color: #7b7b7b;
+  color: #c7c1c0;
+}
+
+.wrap section.tenth .season .grayBack p.open,
+.wrap section.tenth .season .orangeBack p.open {
+  background-color: #dc6c50;
+}
+
+.wrap section.tenth .season .grayBack p.open a,
+.wrap section.tenth .season .orangeBack p.open a {
+  color: #fff;
+  display: block;
+  width: 120px;
+}
+
+.wrap section.tenth .season .grayBack p.open a:hover,
+.wrap section.tenth .season .orangeBack p.open a:hover {
+  background-color: #000;
+  border-radius: 20px;
+}
+
+.wrap section.tenth .season .grayBack {
+  background-color: #c7c1c0;
+  color: #5c5c5c;
+}
+
+.wrap section.tenth .season .orangeBack {
+  background-color: #f5c39b;
+}
+
+.wrap section.eleventh {
+  background-color: #eeefef;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.wrap section.eleventh h2 {
+  font-size: 2rem;
+  padding-bottom: 70px;
+  font-weight: 500;
+}
+
+.wrap section.eleventh .cardBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500;
+}
+
+.wrap section.eleventh .cardBox .card {
+  width: 600px;
+  margin: 0 20px;
+}
+
+.wrap section.eleventh .cardBox .card a .image {
+  -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.wrap section.eleventh .cardBox .card a .image img {
+  width: 600px;
+  height: 300px;
+}
+
+.wrap section.eleventh .cardBox .card a .content {
+  text-align: left;
+  padding-top: 15px;
+  color: black;
+}
+
+.wrap section.twelfth {
+  background-color: #333;
+  text-align: center;
+  padding-bottom: 70px;
+  color: white;
+}
+
+.wrap section.twelfth h2 {
+  font-size: 2rem;
+  padding: 70px 0;
+  font-weight: 500;
+}
+
+.wrap section.twelfth .content {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+.wrap section.twelfth .content h3 {
+  font-size: 1.3rem;
+  padding: 20px 0;
+  font-weight: 500;
+}
+
+.wrap section.twelfth .content p {
+  font-size: 1.1rem;
+  line-height: 1.5em;
+}
+
+.wrap section.twelfth .content p a {
+  color: #eeca3b;
+}
+
+.wrap section.twelfth .content p a:hover {
+  color: #519958;
+}
+
+.wrap section.twelfth .content .banner {
+  margin-top: 100px;
+}
+
+.wrap section.twelfth .content .banner img {
+  width: 100%;
+}
+
+.wrap section.thirteenth {
+  background-color: #333;
+  text-align: center;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.wrap section.thirteenth .foot {
+  background-color: black;
+  width: 80%;
+  margin: auto;
+}
+
+.wrap section.thirteenth .foot .lineUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+  padding: 10px 0;
+}
+
+.wrap section.thirteenth .foot .lineUp h1 {
+  padding: 0 10px;
+  line-height: 1.1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap section.thirteenth .foot .lineUp ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap section.thirteenth .foot .lineUp ul li {
+  margin: 0 10px;
+}
+
+.wrap section.thirteenth .foot .lineUp ul li a {
+  color: white;
+}
+
+.wrap section.thirteenth .foot .lineDown p {
+  padding: 10px 0;
+}
+/*# sourceMappingURL=style.css.map */
